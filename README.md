@@ -15,7 +15,8 @@ This repository contains clean, optimized Java solutions with explanations, time
 
 ## 📂 Repository Structure
 
-```📁 src/
+```
+📁 src/
 ├── arrays/
 ├── sliding_window/
 ├── two_pointers/
