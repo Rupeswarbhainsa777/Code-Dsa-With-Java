@@ -1,20 +1,26 @@
 package Java_Normal_Coding_Problem;
 
 
+import java.util.LinkedList;
 
 public class Test {
 
     public static void main(String[] args) {
 
-        counterFunction(10);
+        LinkedList<Integer> li = new LinkedList<>();
+        li.add(1);
+        li.add(2);
+        li.add(3);
+        li.add(4);
+        li.add(5);
 
-    }
-    public  static  void counterFunction(int i){
+        System.out.println(li.getFirst());
 
-        System.out.println(i);
-        if(i>0){
-            counterFunction(i-1);
-
+        for(int x : li){
+            System.out.println(x);
         }
+
+
     }
+
 }
