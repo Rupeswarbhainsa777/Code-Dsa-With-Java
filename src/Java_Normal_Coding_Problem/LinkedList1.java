@@ -38,6 +38,20 @@ public class LinkedList1 {
         }
         System.out.println();
     }
+    public void addFirst(int data){
+        Node newNode= new Node(data);
+        newNode.next =head;
+        head=newNode;
+    }
+    public void delete(int data){
+        Node curr=head;
+        while (curr.next!=null && curr.next.data!=data){
+            curr=curr.next;
+        }
+        if(curr.next!=null){
+            curr.next=curr.next.next;
+        }
+    }
 }
 class Test2{
     public static void main(String[] args) {
@@ -46,7 +60,10 @@ class Test2{
         li.add(17);
         li.add(16);
         li.add(14);
-
+li.addFirst(7);
         li.display();
+li.delete(12);
+        li.display();
+
     }
 }
