@@ -5,13 +5,16 @@ public class LongestPalindromSubString {
 
         String st ="jaja";
 
-        if(rev(st).equals(st)){
-            System.out.println("True");
-        }
-        else {
-            System.out.println("False");
-        }
 
+
+    }
+    public static String longestPalindrom(String s){
+        int i=0;
+        int j=0;
+        while(i<s.length()){
+
+
+        }
     }
 
     public static String rev(String str){
