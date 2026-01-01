@@ -5,7 +5,7 @@ public class SumOfSquareRoot {
 
         int num=5;
 
-        System.out.println(isTrue(num));
+//        System.out.println(isTrue(num));
     }
     public static boolean isTrue(int num){
         long a =0;
