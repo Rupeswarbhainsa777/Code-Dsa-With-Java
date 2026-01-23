@@ -20,6 +20,7 @@ public class WaterContainer {
         while (lp<rp){
 
             int width =lp-rp;
+
             int hight = Math.min(arr[lp],arr[rp]);
 
            int currentwater = width*hight;
