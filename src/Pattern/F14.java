@@ -6,8 +6,8 @@ public class F14 {
 //    f1();
 //      f2();
 //        f3();
-        f4();
-
+//        f4();
+f5();
 
 
 
@@ -42,12 +42,27 @@ public class F14 {
             }
             System.out.println();
         }
-    } public static void f4(){
+    }
+    public static void f4(){
         int n =4;
         for(int i=n;i>=0;i--){
             for(int j=0;j<=i;j++){
                 System.out.print("* ");
             }
+            System.out.println();
+
+        }
+    }
+    public static void f5(){
+        int n =4;
+        for(int i=0;i<=n;i++){
+            for(int j=0;j<=n-i;j++){
+                System.out.print(" ");
+            }
+
+          for(int j=0;j<=i;j++){
+              System.out.print("* ");
+          }
             System.out.println();
 
         }
