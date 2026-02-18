@@ -9,8 +9,8 @@ public class F14 {
 //        f4();
 //f5();
 //f6();
-f7();
-
+//f7();
+f8();
 
 
 
@@ -103,5 +103,28 @@ f7();
             }
             System.out.println();
         }
+    }
+    public static void f8() {
+        int n = 5;
+        for (int i=n;i>=2;i--){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+
+        }
+      for (int i=1;i<=n;i++){
+          for(int j=1;j<=n-i;j++){
+              System.out.print(" ");
+          }
+          for(int j=1;j<=i;j++){
+              System.out.print(j+" ");
+          }
+          System.out.println();
+
+      }
     }
 }
