@@ -85,13 +85,21 @@ f7();
     public static void f7() {
         int n = 5;
 
-        for(int i=n;i>=1;i--){
-
-          for(int j=1;j<=i;j++){
-              System.out.print(j+" ");
-          }
-            for(int j=1;j<=i-n;j++){
+       for(int i=n;i>=0;i--){
+           for(int j=2*n-i;j>i;j--){
+               System.out.print(" ");
+           }
+           for(int j=1;j<=i;j++){
+               System.out.print(j+" ");
+           }
+           System.out.println();
+       }
+        for(int i=1;i<=n;i++){
+            for(int j=2*n-i;j>i;j--){
                 System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print(j+" ");
             }
             System.out.println();
         }
