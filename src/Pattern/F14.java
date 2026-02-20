@@ -11,8 +11,8 @@ public class F14 {
 //f6();
 //f7();
 //f8();
-f9();
-
+//f9();
+f10();
 
 
     }
@@ -148,5 +148,21 @@ f9();
             System.out.println();
         }
 
+    }
+
+    public static void f10(){
+        int n =5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+        for(int i=n-1;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
     }
 }
