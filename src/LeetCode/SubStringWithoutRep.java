@@ -1,13 +1,36 @@
 package LeetCode;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class SubStringWithoutRep {
     public static void main(String[] args) {
 
     }
-    public static int getLength()
+    public static int getLength(String s){
+
+       int start =0;
+       int end =0;
+       int max=Integer.MIN_VALUE;
+        HashSet<Character> set = new HashSet<>();
+        int len =0;
+        while(end<s.length()){
+            char ch = s.charAt(end);
+
+            if(set.contains(end)){
+                while (start<end && set.contains(ch)){
+                    set.remove(s.charAt(start));
+                    start++;
+                }
+            }
+            set.add(ch);
+            max = Math.max(max,set.size());
+            end++;
+
+        }
+        return (max==Integer.MIN_VALUE)?0:max;
+    }
 
 
 
