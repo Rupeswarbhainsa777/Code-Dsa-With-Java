@@ -2,9 +2,12 @@ package Pattern;
 
 public class Characters {
     public static void main(String[] args) {
-//      c1();
-//        c2();
-//        c3();
+      c1();
+        System.out.println();
+        c2();
+        System.out.println();
+        c3();
+        System.out.println();
         c4();
     }
 
