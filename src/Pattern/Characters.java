@@ -9,6 +9,8 @@ public class Characters {
         c3();
         System.out.println();
         c4();
+        System.out.println();
+        c5();
     }
 
     public static void c1(){
@@ -68,5 +70,24 @@ public class Characters {
             System.out.println();
         }
 
+    }
+    public static void c5(){
+        int n =5;
+        for(int i=n;i>=2;i--){
+            char ch ='A';
+            for (int j=1;j<=i;j++){
+                System.out.print(ch+" ");
+                ch++;
+            }
+            System.out.println();
+        }
+        for(int i=1;i<=n;i++){
+            char ch ='A';
+            for (int j=1;j<=i;j++){
+                System.out.print(ch+" ");
+                ch++;
+            }
+            System.out.println();
+        }
     }
 }
