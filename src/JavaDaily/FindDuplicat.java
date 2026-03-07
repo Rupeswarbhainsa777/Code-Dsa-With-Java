@@ -3,7 +3,7 @@ package JavaDaily;
 import java.util.HashMap;
 import java.util.Map;
 
- class Test {
+class FindDup {
     public static void main(String[] args) {
 
     }
