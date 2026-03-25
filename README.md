@@ -1,6 +1,6 @@
-# 📘 Java DSA Practice – LeetCode 75, 150 & More
+# 📘 Java DSA Practice – LeetCode 75, 150, Top 100 & More
 
-Welcome to my **Java Data Structures & Algorithms (DSA)** practice repository! This is a comprehensive, actively maintained collection of solutions spanning **LeetCode 75**, **LeetCode 150**, daily coding challenges, sliding window problems, pattern printing, and core data structure implementations — all written in **Java**.
+Welcome to my **Java Data Structures & Algorithms (DSA)** practice repository! This is a comprehensive, actively maintained collection of solutions spanning **LeetCode 75**, **LeetCode 150**, **Top 100 Coding Questions**, daily coding challenges, sliding window problems, pattern printing, and core data structure implementations — all written in **Java**.
 
 This repository serves as a personal knowledge base for mastering DSA concepts, sharpening problem-solving skills, and preparing for technical interviews.
 
@@ -12,6 +12,7 @@ This repository serves as a personal knowledge base for mastering DSA concepts, 
 |---|---|
 | 🎯 **LeetCode 75** | Curated problem set targeting the most essential interview questions |
 | 📚 **LeetCode 150** | Broader set covering advanced topics and problem types |
+| 🏆 **Top 100 Coding Questions** | Classic interview questions on Arrays & Strings |
 | 🪟 **Sliding Window** | Dedicated sliding window problems with clean implementations |
 | 📅 **Daily Challenges** | Date-stamped daily practice logs for consistent improvement |
 | 🧩 **General Problems** | Classic algorithmic problems (Arrays, Strings, Linked Lists, Trees, etc.) |
@@ -30,6 +31,9 @@ All-Code-Of-Dsa/
 └── src/
     ├── Code_75/                    # 🎯 LeetCode 75 study plan solutions
     ├── Leetcode_150/               # 📚 LeetCode 150 study plan solutions
+    ├── Top_100_Coding_Question/    # 🏆 Top 100 interview coding questions
+    │   ├── Arrays_String/          #     Arrays & Strings category
+    │   └── Testing/                #     Scratch/testing files
     ├── Sliding_window/             # 🪟 Sliding window technique problems
     ├── Java_Normal_Coding_Problem/ # 🧩 General coding interview problems
     ├── JavaDaily/                  # 📅 Daily practice logs
@@ -61,7 +65,7 @@ All-Code-Of-Dsa/
 | `DeterminTwoStringAreClose.java` | Determine if two strings are "close" |
 | `EachRowAndColuman.java` | Row and column matrix operations |
 | `PivotIndex.java` | Find pivot index where left sum equals right sum |
-| `UniqueNumber.java` | Find unique/single element in array |
+| `UniiqueNumber.java` | Find unique/single element in array |
 | `HighestAltitude.java` | Find the highest altitude in a trip |
 | `MatrixPairs.java` | Matrix pairs problem |
 | `MaxNumber.java` | Find maximum number |
@@ -76,7 +80,7 @@ All-Code-Of-Dsa/
 
 ---
 
-### 📚 LeetCode 150 — `src/Leetcode_150/`  *(20 Files)*
+### 📚 LeetCode 150 — `src/Leetcode_150/`  *(21 Files)*
 
 | File | Topic / Description |
 |---|---|
@@ -87,19 +91,45 @@ All-Code-Of-Dsa/
 | `GroupAnagarm.java` | Group anagrams from string array |
 | `ContainsDuplicate2.java` | Contains duplicate within k distance |
 | `IsHappyNumber.java` | Determine if a number is a happy number |
+| `LongestConsecutive.java` | Longest consecutive sequence in array |
 | `MergeInterval.java` | Merge overlapping intervals |
 | `InsetInterval.java` | Insert interval into sorted list |
 | `SummeryRanges.java` | Summary of integer ranges |
-| `Code_1.java` | Leetcode 150 Problem #1 |
-| `Code_4.java` | Leetcode 150 Problem #4 |
-| `Code_6.java` | Leetcode 150 Problem #6 |
-| `Code_7.java` | Leetcode 150 Problem #7 |
-| `Code_8.java` | Leetcode 150 Problem #8 |
-| `Code_18.java` | Leetcode 150 Problem #18 |
-| `Code_20.java` | Leetcode 150 Problem #20 |
-| `Code_25.java` | Leetcode 150 Problem #25 |
-| `Code_26.java` | Leetcode 150 Problem #26 |
+| `Code_1.java` | LeetCode 150 Problem #1 |
+| `Code_4.java` | LeetCode 150 Problem #4 |
+| `Code_6.java` | LeetCode 150 Problem #6 |
+| `Code_7.java` | LeetCode 150 Problem #7 |
+| `Code_8.java` | LeetCode 150 Problem #8 |
+| `Code_18.java` | LeetCode 150 Problem #18 |
+| `Code_20.java` | LeetCode 150 Problem #20 |
+| `code_25.java` | LeetCode 150 Problem #25 |
+| `Code_26.java` | LeetCode 150 Problem #26 |
 | `Testing.java` | Scratch/testing file |
+
+---
+
+### 🏆 Top 100 Coding Questions — `src/Top_100_Coding_Question/`  *(15 Files + 1 PDF)*
+
+> Reference PDF: `Java_Coding_Questions_100.pdf`
+
+#### Arrays & Strings — `Arrays_String/`  *(14 Files)*
+
+| File | Topic / Description |
+|---|---|
+| `Reverse_Array.java` | Reverse an array |
+| `SecondLargest.java` | Find the second largest element |
+| `FindTheMissing.java` | Find the missing number in an array |
+| `FindAllDuplicate.java` | Find all duplicate elements |
+| `RemoveDuplicates.java` | Remove duplicates from a sorted array |
+| `RotateAnArray.java` | Rotate an array by k positions |
+| `MergeTwoSorted.java` | Merge two sorted arrays |
+| `MaximumSumSubArray.java` | Maximum sum subarray (Kadane's Algorithm) |
+| `Anagrams.java` | Check if two strings are anagrams |
+| `StringPalindrome.java` | Check if a string is a palindrome |
+| `ReverseEachWordInString.java` | Reverse each word in a string |
+| `FindFirstNonRepeatingCharacter.java` | Find first non-repeating character |
+| `OccurrencesOfEach.java` | Count occurrences of each character |
+| `NumberOfVowelsAndConsonants.java` | Count vowels and consonants in a string |
 
 ---
 
@@ -141,7 +171,9 @@ All-Code-Of-Dsa/
 | `SetMatch.java` | Set matching / intersection |
 | `Sum3Closist.java` | 3 Sum Closest to target |
 | `SumOfSquareRoot.java` | Sum of square roots |
-| `Test.java` / `Trim.java` / `TrimTheString.java` | Utility / test files |
+| `Test.java` | Utility / test file |
+| `Trim.java` | Trim whitespace from string |
+| `TrimTheString.java` | Trim string (alternate) |
 
 ---
 
@@ -162,7 +194,8 @@ All-Code-Of-Dsa/
 | `RevCharArray.java` | Reverse a character array |
 | `RomenToInteger.java` | Roman numerals to integer conversion |
 | `TwoSumPair.java` | Two sum pair finding |
-| `Test.java` / `Test2.java` | Scratch / testing files |
+| `Test.java` | Scratch / testing file |
+| `Test2.java` | Scratch / testing file 2 |
 
 ---
 
@@ -220,21 +253,23 @@ All-Code-Of-Dsa/
 | Category | Files / Problems |
 |---|---|
 | 🎯 LeetCode 75 | 26 solutions |
-| 📚 LeetCode 150 | 19 solutions |
+| 📚 LeetCode 150 | 20 solutions |
+| 🏆 Top 100 Coding Questions | 14 solutions (Arrays & Strings) |
 | 🪟 Sliding Window | 4 solutions |
 | 🧩 General Problems | 26 solutions |
 | 📅 Daily Challenges | 15 entries |
 | 🌐 Misc LeetCode | 7 solutions |
 | 🎨 Patterns | 2 files |
 | 🏗️ Data Structures | 2 implementations |
-| **Total** | **101+ Files** |
+| **Total** | **116+ Files** |
 
 ---
 
 ## 📝 Study Plan Progress
 
 - [x] **LeetCode 75** — In Progress *(26/75 problems solved)*
-- [x] **LeetCode 150** — In Progress *(19/150 problems solved)*
+- [x] **LeetCode 150** — In Progress *(20/150 problems solved)*
+- [x] **Top 100 Coding Questions** — In Progress 🆕
 - [x] **Sliding Window** — Active
 - [x] **Daily Consistency** — Active 🔥
 - [ ] **Graph Problems** — Coming Soon
@@ -244,7 +279,7 @@ All-Code-Of-Dsa/
 
 ## 🧠 Topics Covered
 
-`Arrays` · `Strings` · `Two Pointers` · `Sliding Window` · `Hashing` · `Stack` · `Queue` · `Linked List` · `Binary Tree` · `Binary Search Tree` · `DFS` · `BFS` · `Recursion` · `Sorting` · `Searching` · `Math & Number Theory` · `Pattern Printing`
+`Arrays` · `Strings` · `Two Pointers` · `Sliding Window` · `Hashing` · `Stack` · `Queue` · `Linked List` · `Binary Tree` · `Binary Search Tree` · `DFS` · `BFS` · `Recursion` · `Sorting` · `Searching` · `Kadane's Algorithm` · `Math & Number Theory` · `Pattern Printing`
 
 ---
 
