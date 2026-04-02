@@ -8,36 +8,34 @@ public class ReverseKGroup {
     }
 
     public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode temp = head;
 
-       ListNode temp = head;
+        int curr=0;
+        while (curr<k){
+            if(temp==null){
+                return head;
+            }
+            temp =temp.next;
+            curr++;
+        }
+        ListNode prevNode = reverseKGroup(temp,k);
 
-       int curr=0;
-       while (curr<k){
-           if(temp==null){
-               return head;
-           }
-           temp =temp.next;
-           curr++;
-       }
-      ListNode prevNode = reverseKGroup(temp,k);
+        temp=head;
+        curr=0;
+        while (curr<k){
 
-       temp=head;
-       curr=0;
-       while (curr<k){
+            ListNode next = temp.next;
 
-           ListNode next = temp.next;
+            temp.next = prevNode;
 
-           temp.next = prevNode;
-
-           prevNode = temp;
-           temp = next;
+            prevNode = temp;
+            temp = next;
 
 
-           curr++;
-       }
+            curr++;
+        }
 
-       return prevNode;
-
+        return prevNode;
     }
 
 }
